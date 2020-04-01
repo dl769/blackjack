@@ -1,0 +1,62 @@
+body {
+    background-image: linear-gradient(to right,#04210f, #0e682b, #04210f);
+  }
+
+  #cardStack{
+        margin-left: 32%;
+        margin-top: 2%;
+        margin-bottom: 0.1%;
+  }
+  #cardStackPhoto{
+      width: 15%;
+  }
+  #cardOfPlayer{
+      width: 7%;
+  }
+  #card1OfPC{
+    width: 7%;
+}
+#card2OfPC{
+    width: 7%;
+    margin-left: -3.5%
+}
+.coin{
+    width: 6%;
+}
+#val{
+    margin-left: 3%;
+}
+
+  #val{
+      font-size: 250%;
+      color: white;
+      background-color: #408000;
+      border-radius: 43%;
+      border: solid
+  }
+
+  #playerCash{
+    font-size: 250%;
+    color: white;
+    background-color: #804000;
+    border-radius: 43%;
+    border: solid;
+    margin-right: 2%;
+}
+.coin:hover{
+ width: 135px;
+ cursor: pointer;
+}
+button{
+    font-size: 300%;
+    background-color:#373737;
+    border-radius: 10%;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    margin-bottom: 1%;
+}
+button:enabled:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
